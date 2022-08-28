@@ -6,7 +6,8 @@
   "scripts": {
     "start": "node src/index.js",
     "dev": "nodemon src/index.js",
-    "test": "npm run test"
+    "test": "npm run test",
+    "publish": "docker build -t avinashskaranth/node-ses:0.0.1 -t avinashskaranth/node-ses:latest . & docker push avinashskaranth/node-ses"
   },
   "repository": {
     "type": "git",
