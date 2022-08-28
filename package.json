@@ -1,0 +1,35 @@
+{
+  "name": "node-ses",
+  "version": "0.0.1",
+  "description": "Dockerized Application of node-ses Library",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eforge-xyz/node-ses.git"
+  },
+  "keywords": [
+    "ses",
+    "email",
+    "docker",
+    "notification",
+    "microservice"
+  ],
+  "author": "Avinash S Karanth",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/eforge-xyz/node-ses/issues"
+  },
+  "homepage": "https://github.com/eforge-xyz/node-ses#readme",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "jsonwebtoken": "^8.5.1",
+    "node-ses": "^3.0.3",
+    "xml2js": "^0.4.23"
+  }
+}
